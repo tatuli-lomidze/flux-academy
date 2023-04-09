@@ -1,0 +1,147 @@
+/* header */
+.header-block {
+    max-width: 1440px;
+    width: 100%;
+    height: 96px;
+}
+.header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+ 
+}
+
+.navigation {
+    max-width: 1376px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .navbar {
+    max-width: 325px;
+    width: 100%;
+   }
+   .ulitems {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .navcolor {
+    color: black;
+   }
+
+   .button {
+    max-width: 100px;
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    color: white;
+   }
+
+
+  
+   /* section1 */
+
+   .section1 {
+    max-width: 1440px;
+    width: 100%;
+    height: 556px;
+    background-color: yellow;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+   }
+
+
+   .frame17 {
+    /* padding-top: 64px; */
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    height: 428x;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 130px; */
+    }
+
+    .text-block{
+        max-width: 490px;
+        width: 100%;
+        height: 288px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .image-block {
+        background-image: url("../img/img1.png");
+        max-width: 490px;
+        width: 100%;
+        height: 428px;
+
+       }
+
+    .text17 {
+        /* max-width: 490px;
+        width: 100%; */
+        height: 56px;
+        font-size: 18px;
+        font-family: 'Inter-Light';
+        font-weight: 400;
+        
+    
+    }
+
+    .title17 {
+        /* max-width: 490px;
+        width: 100%; */
+        height: 120px;
+        font-size: 56px;
+        font-family: 'Inter-ExtraBold';
+        font-weight: 900;
+    
+    }
+
+    .uptext {
+        /* max-width: 490px;
+        width: 100%; */
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .downtext {
+        /* max-width: 490px;
+        width: 100%; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+.text017 {
+     max-width: 236px;
+     width: 100%;
+     font-family: "Inter-Medium";
+     font-weight: 600;
+     font-size: 14px;
+}
