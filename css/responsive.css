@@ -1,23 +1,21 @@
 /* max 1024px */
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 745px;) {
 
     /* section1 */
 
-    .section1 {
-      height: 862px;
-    }    
+
     .frame17 {
         max-width: 960px;
         width: 960px;
-        height: 800px;
+        /* height: 800px; */
         flex-direction: column;
     }
 
     .text-block {
         max-width: 630px;
         width: 100%;
-        height: 282px;
+        /* height: 282px; */
         align-items: center;
         text-align: center;
     }
@@ -36,6 +34,65 @@
         width: 100%;
         justify-content: center;
     }
+/* section2 */
+
+    .section2 {
+        /* height: 254px; */
+
+    }
+    .flex-section2 {
+        max-width: 959.99px;
+        width: 100%;
+        /* height: 176px; */
+
+    }
+    .box-section2 {
+        max-width: 279.33px;
+        width: 100%;
+        /* height: 176px; */
+        gap: 22px;
+
+    }
+    .minibox-section2 {
+        max-width: 279.33px;
+        width: 100%;
+        /* height: 56px; */
+        
+
+    }
+
+    
+    .minibox-text { 
+        /* height: 120px; */
+        max-width: 279.33px;
+        width: 100%;
+        letter-spacing: 0.1px;
+
+    }
+
+
+/* section3 */
+
+.flex-container {
+    flex-direction: column;
+}
+.right-block {
+    display: flex;
+    flex-direction: row;
+    column-gap: 129px;
+}
+
+.right-block-child2, 
+.right-block-child {
+    max-width: 415,5px;
+    width: 100%;
+}
+
+.left-block,
+.right-block {
+    width: 100%;
+}
+
 }
 
 /* max 744 */
@@ -95,14 +152,61 @@
             width: 100%;
 
         }
-    
+        /* section2 */
+        
+    .section2 {
+        max-width: 744px;
+        width: 100%;
+        height: 414px;
+        
+
     }
+    .flex-section2 {
+        max-width: 744%;
+        width: 100%;
+        height: 414px;
+
+    }
+    .box-section2 {
+
+        max-width: 744%;
+        width: 100%;
+        height: 138px;
+    }
+    .minibox-section2 {
+        
+
+    }
+    .blackdiv {
+
+    }
+    .minibox-title {
+
+    }
+    .minibox-text {
+        
+    }
+    
+ /* section3 */
+
+.right-block {
+    flex-direction: column;
+}
+
+.right-block-child,
+.right-block-child2 {
+    align-items: center;
+    text-align: center;
+}
+
+    }
+
 
 /* max 375 */ 
 
 @media (max-width: 375px) {
     /* section1 */
-    .sectiom {
+    .section {
         max-width: 375px;
         width: 100%;
         height: 695px;
@@ -155,5 +259,29 @@
     }
     .button {
         display: none;
+    }
+
+    /* section2 */
+    
+    .section2 {
+
+    }
+    .flex-section2 {
+
+    }
+    .box-section2 {
+
+    }
+    .minibox-section2 {
+
+    }
+    .blackdiv {
+
+    }
+    .minibox-title {
+
+    }
+    .minibox-text {
+        
     }
 }
