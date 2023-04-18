@@ -58,7 +58,6 @@
    /* section1 */
 
    .section1 {
-    background-color: antiquewhite;
     padding: 64px 0;
    }
 
@@ -132,7 +131,6 @@
 .flex-container2 {
     display: flex;
     justify-content: space-between;
-    background-color: white;
     column-gap: 30px;
 
 }
@@ -175,7 +173,6 @@
     max-width: 1140px;
     width: 90%;
     margin: 0 auto;
-    background-color: lightblue;
 }
 
 .flex-container {
@@ -354,7 +351,6 @@ position: relative;
     max-width: 1140px;
     width: 90%;
     margin: 0 auto;
-    background-color: red;
 }
 
 .flex-container6 {
@@ -419,4 +415,8 @@ position: relative;
 
 .textp6 {
     color: grey;
+}
+
+.footerul1{
+    display: flex;
 }
