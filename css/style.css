@@ -355,16 +355,23 @@ position: relative;
 
 .flex-container6 {
     display: flex;
-    flex-direction: row; 
+    
+}
+
+.container6b {
+    max-width: 912px;
+    width: 90%;
 }
 
 .flex-container6b {
     display: flex;
     justify-content: space-between;
+
 }
 
 .footerul {
-    width: 228px;
+    max-width: 228px;
+    width: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -419,4 +426,7 @@ position: relative;
 
 .footerul1{
     display: flex;
+    max-width: 684px;
+    width: 90%;
+
 }
